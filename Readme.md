@@ -67,7 +67,7 @@ kubectl create -f Deployment.yaml
 ```
 kubectl get nodes -o wide
 ```
-7- Access the hugo-site services to view its exposed port.
+7- Access the hello-world services to view its exposed port.
 
 ```
 kubectl get svc -n hello-world
